@@ -58,7 +58,7 @@ public class MyFrac : IMyNumber<MyFrac>, IComparable<MyFrac>
 
     public override string ToString()
     {
-        return $"{this.nom.ToString()}/{this.denom.ToString()}";
+        return $"{this.nom}/{this.denom.ToString()}";
 
     }
 

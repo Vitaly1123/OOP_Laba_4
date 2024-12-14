@@ -57,7 +57,7 @@ class Solution
         {
             new(2,3), new(5,2), new(-6, 7), new(-20, 9), new(1, 20), new(64, 8)
         };
-
+            
         Array.Sort(arr);
         for (int i = 0; i < arr.Length; i++)
         {
